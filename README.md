@@ -81,12 +81,12 @@ module plug {
 ```
 
 読める！！！！！！
-
 # 慣れるまでちょっと気になるところ
 ## lexerが気難しい
+例えば `def plugins_file [] {...}` と書くべきところを `def plugins_file[] {...}` と書いてしまうとパースエラーになる
 
 ## 正規表現がrustのregexモジュールそのままで若干書きづらい
+`help parse` を参照
 
 ## デフォルトで入っている補完などが弱い
-
 https://github.com/nushell/nu_scripts に大体揃っているので↑のインストーラー君などで入れると普通に使えるようになる
